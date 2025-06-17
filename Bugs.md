@@ -45,4 +45,4 @@ Issue: The response may not include a Content-Type: text/plain header, which cou
 
 Impact: Clients may misinterpret the response.
 
-Severity: Low (if clients are tolerant), Medium (if strict parsing is required). vffffffffffffffffffffffffffffffffdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdc 
+Severity: Low (if clients are tolerant), Medium (if strict parsing is required). 
