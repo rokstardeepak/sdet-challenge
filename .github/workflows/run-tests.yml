@@ -11,4 +11,4 @@ jobs:
         with:
           node-version: '16'
       - run: npm install -g newman
-      - run: newman run sdet-challenge-api.postman_collection.json
+      - run: newman run sdet-challenge-api.postman_collection.json --env-var "baseUrl=https://sdet-api.reckitplus.com"
